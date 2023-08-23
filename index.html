@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="txt1"><span> TIMER</span></h1>
+        <h2 class="txt2" id="disp">Set Timer</h2>
+        <div class="countdown-container">
+            <form action="#">
+                <input type="number"   id="hour" autocomplete="off" placeholder=00>
+                <span class="colon">:</span> 
+                <input type="number"  id="minute" autocomplete="off" placeholder=00 min=0 max=59>
+                <span class="colon">:</span> 
+                <input type="number"  id="second" autocomplete="off" placeholder=00 min=0 max=59>
+            </form>
+
+        </div>
+        <div class="btn">
+            <button id="start">START</button>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
